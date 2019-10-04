@@ -4,6 +4,8 @@
   "private": true,
   "homepage": "https://aneagoie.github.io/robofriends-pwa",
   "dependencies": {
+    "@types/jest": "^24.0.18",
+    "axios": "^0.19.0",
     "gh-pages": "*",
     "react": "*",
     "react-dom": "*",
@@ -34,5 +36,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "moxios": "^0.4.0",
+    "redux-mock-store": "^1.5.3"
   }
 }

@@ -1,2 +1,4 @@
-export const apiCall = (link) =>
-  fetch(link).then(response => response.json())
+
+import axios from 'axios';
+
+export const apiCall = (link) => axios.get(link).then(response => response);
